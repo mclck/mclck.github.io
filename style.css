@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  position: relative;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4) url(main-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .header .nav {
+    position: relative;
+    padding-top: 40px; }
+    .header .nav ul li {
+      position: relative;
+      float: right;
+      list-style-type: none;
+      padding-left: 30px; }
+      .header .nav ul li a {
+        text-decoration: none; }
+        .header .nav ul li a span {
+          font-family: 'Montserrat', sans-serif;
+          font-variant: small-caps;
+          text-transform: lowercase;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 600; }
+      .header .nav ul li:before {
+        content: '●';
+        position: absolute;
+        color: #fff;
+        left: 10px;
+        top: 3px; }
+      .header .nav ul li:last-child:before {
+        content: ''; }
+  .header:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8); }
+
+.container {
+  width: 1170px;
+  margin: 0 auto; }
+
+.float:before, .float:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */
