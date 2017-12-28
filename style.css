@@ -27,7 +27,7 @@
           font-variant: small-caps;
           text-transform: lowercase;
           color: #fff;
-          font-size: 18px;
+          font-size: 20px;
           font-weight: 600; }
       .header .nav ul li:before {
         content: '●';
